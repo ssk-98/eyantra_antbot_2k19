@@ -65,7 +65,7 @@ def aruco_gen(id_aruco, num_pixels):
                                                             #select n and C from the list mentioned above
     img = aruco.drawMarker(aruco_dict, id_aruco, num_pixels)
     cv2.imshow('frame',img)
-    cv2.waitKey(0)
+    cv2.waitKey(1)
     '''
     code here for saving the Aruco image as a "jpg" by following the steps below:
     1. save the image as a colour RGB image in OpenCV color image format
